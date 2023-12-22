@@ -1,3 +1,61 @@
 body {
-    
+   font-family: 'Roboto', sans-serif; 
+   background-color: #4f4e4c;
+   color: #fafafa;
 }
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+
+    background: url("../images/pexels-eva-bronzini-7254802.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display:flex;
+}
+
+.jumbotron {
+    background: transparent;
+    align-self: center;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+}
+
+.jumbotron h1 {
+    color: #fafafa;
+}
+
+.jumbotron p {
+    color: #fafafa;
+}
+
+.jumbotron span {
+    color: #fafafa;
+}
+
+.btn-success, .badge-success {
+    background-color: #e5a93c;
+    border-color: #e5a93c;
+    border-radius: 10%;
+}
+
+.quotes-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.media, .media-container {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.features-container {}
+
+.feature {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.favourites-container {}
