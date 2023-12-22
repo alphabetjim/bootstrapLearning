@@ -48,6 +48,9 @@ body {
     justify-content: space-between;
 }
 
+.quote-div {
+}
+
 .media, .media-container {
     background-color: rgba(0,0,0,0.5);
 }
@@ -56,6 +59,27 @@ body {
 
 .feature {
     background-color: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.feature p {
+    margin: 1em;
+}
+
+.feature h3 {
+    margin-left: 0.5em;
+    margin-top: 1em;
+}
+
+.feature a {
+    margin-bottom: 0.5em;
 }
 
 .favourites-container {}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
