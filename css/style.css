@@ -45,7 +45,7 @@ body {
 
 .quotes-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .quote-div {
@@ -53,6 +53,14 @@ body {
 
 .media, .media-container {
     background-color: rgba(0,0,0,0.5);
+}
+
+.media p {
+    margin: 1em;
+}
+
+.media img {
+    margin: 1em;
 }
 
 .features-container {}
