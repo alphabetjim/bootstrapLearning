@@ -4,6 +4,13 @@ body {
    color: #fafafa;
 }
 
+.container-wrapper {}
+
+.container-wrapper--orange {
+    background-color: #e5a93c;
+    color: white;
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -63,21 +70,6 @@ body {
     font-weight: bold;
 }
 
-/* Block Dividers */
-
-.block-divider {
-    height: 5px;
-    width: 75px;
-    border: 0;
-}
-
-.block-divider--orange{
-    color: #e5a93c;
-}
-
-.block-divider--short{
-    width: 35px;
-}
 
 /* Jumbotron */
 
@@ -143,17 +135,8 @@ body {
     border-color: #e59401;
 }
 
-
-.quotes-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.quote-div {
-}
-
 .media, .media-container {
-    background-color: rgba(0,0,0,0.5);
+    
 }
 
 .media p {
@@ -167,10 +150,24 @@ body {
 .features-container {}
 
 .feature {
-    background-color: rgba(0,0,0,0.5);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #e5a93c;
 }
 
 .feature p {
@@ -179,11 +176,51 @@ body {
 
 .feature h3 {
     margin-left: 0.5em;
-    margin-top: 1em;
 }
 
-.feature a {
-    margin-bottom: 0.5em;
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: -0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+/* Block Dividers */
+
+.block-divider {
+    height: 5px;
+    width: 75px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--orange{
+    background-color: #e5a93c;
+}
+
+.block-divider--white{
+    background-color: white;
+}
+
+.block-divider--short{
+    width: 35px;
+}
+
+/* Content containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /* Badges */
@@ -200,3 +237,4 @@ body {
     margin-left: 0;
     margin-right: 0;
 }
+
