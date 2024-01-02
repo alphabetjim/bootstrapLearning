@@ -9,27 +9,88 @@ body {
 .callout-container {
     height: 100vh;
 
-    background: url("../images/pexels-eva-bronzini-7254802.jpg") no-repeat center center fixed; 
+    background: url("../images/pexels-eva-bronzini-7254802.jpg") no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
     display:flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
+
+/* Navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/* Block Dividers */
+
+.block-divider {
+    height: 5px;
+    width: 75px;
+    border: 0;
+}
+
+.block-divider--orange{
+    color: #e5a93c;
+}
+
+.block-divider--short{
+    width: 35px;
+}
+
+/* Jumbotron */
 
 .jumbotron {
     background: transparent;
-    align-self: center;
+    /*align-self: center;
     background-color: rgba(0,0,0,0.5);
-    width: 100%;
+    width: 100%;*/
 }
 
-.jumbotron h1 {
+.jumbotron-header {
     color: #fafafa;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
-.jumbotron p {
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
     color: #fafafa;
 }
 
@@ -37,11 +98,38 @@ body {
     color: #fafafa;
 }
 
-.btn-success, .badge-success {
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5)
+}
+
+/* Buttons */
+
+.btn--cta {
+    border-radius: 23px;
+    font-weight: bold;
+    width: 160px;
+}
+
+.btn--orange {
+    color: white;
     background-color: #e5a93c;
     border-color: #e5a93c;
-    border-radius: 10%;
+    
 }
+
+.btn--orange:hover,
+.btn--orange:active,
+.btn--orange:focus,
+.btn--orange:active:focus {
+    background-color: #e59401;
+    border-color: #e59401;
+}
+
 
 .quotes-container {
     display: flex;
@@ -83,6 +171,14 @@ body {
 
 .feature a {
     margin-bottom: 0.5em;
+}
+
+/* Badges */
+
+.badge-success--orange {
+    color: white;
+    background-color: #e5a93c;
+    border-color: #e5a93c;
 }
 
 .favourites-container {}
