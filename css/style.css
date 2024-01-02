@@ -30,7 +30,7 @@ body {
     left: 0;
     padding-left: 0;
     padding-right: 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 .navbar {
@@ -75,6 +75,7 @@ body {
     /*align-self: center;
     background-color: rgba(0,0,0,0.5);
     width: 100%;*/
+    z-index: 1;
 }
 
 .jumbotron-header {
@@ -104,7 +105,8 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.5)
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
 }
 
 /* Buttons */
