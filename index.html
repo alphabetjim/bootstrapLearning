@@ -14,6 +14,15 @@
 
 <body>
   <div class="container-fluid navalert-container">
+      <div class="container-fluid alert-container">
+        <div class="row d-none d-sm-block">
+              <div class="col-12">
+                <div class="site-wide-alert alert alert-warning">
+                  <strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for the price of 6! <a href="">See here for details!</a>
+                </div>
+              </div>
+            </div>
+      </div>
     <nav class="navbar navbar-dark navbar-expand-sm">
       <a href="/" class="navbar-brand">Whiskey Drop</a>
 
@@ -36,24 +45,15 @@
               <a href="#" class="dropdown-item">American</a>
             </div>
           </li>
-          <li class="nav-item mr-2 d-block d-sm-none"><a href="/login" class="nav-link">Sign In / Sign Up</a></li>
+          <li class="nav-item mr-2 d-block d-sm-none"><a href="/login" class="btn btn--cta btn--orange">Sign In / Sign Up</a></li>
         </ul>
       </div>
       <div class="d-none d-md-block">
         <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
-        <a href="/login" class="btn btn--cta btn--red">Sign In / Sign Up</a>
+        <a href="/login" class="btn btn--cta btn--orange">Sign In / Sign Up</a>
       </div>
     </nav>
   </div>
-    <!--<div class="container alert-container"> -->
-    <!--  <div class="row d-none d-sm-block"> -->
-    <!--        <div class="col-12"> -->
-    <!--          <div class="alert alert-warning"> -->
-    <!--            <strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for the price of 6! <a href="">See here for details!</a> -->
-    <!--          </div> -->
-    <!--        </div> -->
-    <!--      </div> -->
-    <!--    </div> -->
     <div class="container-fluid callout-container">
         <!-- Callout -->
         <div class="opaque-overlay">&nbsp;</div>
@@ -65,7 +65,7 @@
                     <hr class="block-divider block-divider--orange">
                     <p class="lead">Sign up today to start receiving the world's best whiskeys every month. <s class="d-none d-sm-inline">£19.99</s>
                       <span class="d-inline d-sm-none"><br></span> <strong><mark>First one is free!</mark></strong></p>
-                    <button class="btn btn-lgbtn--cta btn--orange" data-toggle="modal" data-target="#signupModal">Sign Up!</button>
+                    <button class="btn btn--cta btn--orange" data-toggle="modal" data-target="#signupModal">Sign Up!</button>
                     <p class="text-muted"><small>You must be over 18 to use our service. Please, drink responsibly.</small></p>
                 </section>
               </div>
